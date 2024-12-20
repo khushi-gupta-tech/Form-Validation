@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Form Validation in JavaScript</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <section class="contact">
+                <h1>Contact Us !!</h1>
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <h3>Enter your name<span id="star">*</span></h3>
+                            <input type="text" placeholder="Full Name" id="name" class="item">
+                            <div class="error-text">Full name can't be blank</div>
+                        </div>
+
+                        <div class="input-field field">
+                            <input type="text" placeholder="Email Address" id="email" class="item">
+                            <div class="error-text email">Email can't be blank</div>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Contact Number" id="phone" class="item">
+                            <div class="error-text contact">Contact Number  can't be blank</div>
+                        </div>
+
+                        <div class="input-field field">
+                            <input type="text" placeholder="Enter Subject" id="subject" class="item">
+                            <div class="error-text">Subject can't be blank</div>
+                        </div>
+                    </div>
+
+
+                    <div class="textarea-field field">
+                        <textarea name="" cols="30"  rows="6" id="message" placeholder="Your Message..." class="item"></textarea>
+                        <div class="error-text message">Meassage can't be blank</div>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </section>
+
+            
+        </div>
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

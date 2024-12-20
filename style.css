@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url('../images/img.webp');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.hero{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.85);
+
+}
+h1{
+    text-align:center;
+    font-size:45px;
+    color:white;
+}
+.contact form{
+    width:600px;
+    text-align:center;  
+}
+
+form .input-box{
+    display:flex;
+    justify-content: space-between;
+}
+.field .item{
+    width:100%;
+    padding:18px;
+    background-color:transparent;
+    border:2px solid white;
+    outline:none;
+    border-radius:6px;
+    font-size:16px;
+    color:white;
+    margin:12px 0px;
+}
+.field .error-text{
+    font-size:14px;
+    color:red;
+    text-align:left;
+    display:none;
+    margin:-5px 0 10px;
+}
+.field.error .error-text{
+    display:block;
+}
+.input-box .input-field{
+    width:49%; 
+}
+
+form button{
+    padding:12px 30px;
+    border:none;
+    outline:none;
+    background-color:aqua;
+    border-radius:6px;
+    font-size:18px;
+}
+.field.error .item{
+    border:2px solid red;
+}
+
+h3{
+    color:white;
+    text-align:left;
+}
+h3 #star{
+    color:red;
+    display:none;
+}
